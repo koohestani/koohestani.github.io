@@ -96,6 +96,8 @@ body {
     color: var(--var-primary-color);
     font-weight: 900;
     font-size: 2rem;
+    text-align: center;
+    margin-top: 12px;
 }
 
 .cv__prsonal--info .cv__description {
@@ -255,12 +257,14 @@ body {
 .cv__footer .cv__footer--title {
     color: rgba(232, 28, 77, 1);
     background-color: rgba(248, 212, 212, 1);
-    padding: 5px 8px;
-    border-radius: 10px;
-    min-width: 130px;
     text-align: center;
     align-self: baseline;
     margin-bottom: 8px;
+    padding: 4px;
+    font-size: 0.9rem;
+    min-width: unset;
+    border-radius: 5px;
+    margin-left: 5px;
 }
 
 .cv__footer .cv__footer--title.success {
@@ -308,6 +312,7 @@ body {
     .cv__prsonal--info .cv__name {
         margin-top: 0;
         font-size: 3rem;
+        text-align: left;
     }
 
     .cv .cv__details .cv__detail .cv__details--title {
@@ -334,5 +339,9 @@ body {
 
     .cv__footer .cv__footer--title {
         margin-bottom: 0;
+        padding: 5px 8px;
+        border-radius: 10px;
+        min-width: 130px;
+        font-size: 1rem;
     }
 }
