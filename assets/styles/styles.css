@@ -90,7 +90,7 @@ body {
 .cv__prsonal--info .cv__name {
     color: rgba(59, 130, 246, 1);
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .cv__prsonal--info .cv__description {
@@ -99,12 +99,6 @@ body {
     font-weight: bold;
     max-width: 750px;
     line-height: 2;
-}
-
-@media screen and (min-width: 768px) {
-    .cv__prsonal--info {
-        padding-top: 50px;
-    }
 }
 
 .cv__contact {
@@ -179,7 +173,7 @@ body {
 .cv .cv__details .cv__detail .cv__details--title {
     color: rgba(51, 65, 85, 1);
     font-weight: 700;
-    font-size: 1.6rem;
+    font-size: 1.1rem;
 }
 
 .cv .cv__details .cv__detail .cv__details--company .cv__details--company-logo {
@@ -196,14 +190,14 @@ body {
 .cv .cv__details .cv__detail .cv__details--company a {
     color: rgba(59, 130, 246, 1);
     font-weight: 400;
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-decoration: none;
 }
 
 .cv .cv__details .cv__detail .cv__details--date,
 .cv .cv__details .cv__detail .cv__details--location {
     color: rgba(96, 116, 150, 1);
-    font-size: 1.05rem;
+    font-size: 0.9rem;
     font-weight: bold;
 }
 
@@ -230,7 +224,7 @@ body {
     line-height: 1.8;
     margin-bottom: 8px;
     font-weight: 400;
-    font-size: 1.05rem;
+    font-size: 0.92rem;
     letter-spacing: -0.1px;
     position: relative;
     margin-left: 20px;
@@ -262,17 +256,6 @@ body {
     text-align: center;
     align-self: baseline;
     margin-bottom: 8px;
-}
-
-@media screen and (min-width: 768px) {
-    .cv__footer {
-        align-items: center;
-        flex-direction: row;
-    }
-
-    .cv__footer .cv__footer--title {
-        margin-bottom: 0;
-    }
 }
 
 .cv__footer .cv__footer--title.success {
@@ -310,4 +293,41 @@ body {
     left: 18%;
     width: 65%;
     border-radius: 25px;
+}
+
+@media screen and (min-width: 768px) {
+    .cv__prsonal--info {
+        padding-top: 50px;
+    }
+
+    .cv__prsonal--info .cv__name {
+        margin-top: 0;
+        font-size: 3rem;
+    }
+
+    .cv .cv__details .cv__detail .cv__details--title {
+        font-size: 1.6rem;
+    }
+
+    .cv .cv__details .cv__detail .cv__details--company a {
+        font-size: 1.3rem;
+    }
+
+    .cv .cv__details .cv__detail .cv__details--date,
+    .cv .cv__details .cv__detail .cv__details--location {
+        font-size: 1.05rem;
+    }
+
+    .cv__content .cv__content--list .cv__content--item {
+        font-size: 1.05rem;
+    }
+
+    .cv__footer {
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .cv__footer .cv__footer--title {
+        margin-bottom: 0;
+    }
 }
