@@ -238,6 +238,10 @@ body {
   margin-left: 20px;
 }
 
+.cv__content .cv__content--list .cv__content--item a {
+  color: var(--var-primary-color);
+}
+
 .cv__content .cv__content--list .cv__content--item span.circle {
   background: rgba(59, 130, 246, 0.2);
   height: 10px;
