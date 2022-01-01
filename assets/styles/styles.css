@@ -309,7 +309,7 @@ body {
     border-radius: 25px;
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .cv__prsonal--info {
         padding-top: 50px;
     }
