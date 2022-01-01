@@ -309,7 +309,7 @@ body {
     border-radius: 25px;
 }
 
-@media screen and (min-width: 768px) {
+@media (min-width: 768px) {
     .cv__prsonal--info {
         padding-top: 50px;
     }
@@ -326,5 +326,24 @@ body {
 
     .cv__footer .cv__footer--title {
         margin-bottom: 0;
+    }
+}
+
+@media print {
+    body {
+        background-color: unset;
+    }
+
+    .cv__personal--img {
+        display: none;
+    }
+
+    .cv:first-child {
+        margin-top: 10px;
+    }
+
+    .cv__contact--item {
+        flex: 0 0 auto;
+        width: 33.3333333333%;
     }
 }
